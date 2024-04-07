@@ -92,7 +92,6 @@ func main() {
 			return
 		}
 
-		// Get the time taken to receive the packet
 		end := time.Now()
 		duration := end.Sub(begin)
 
